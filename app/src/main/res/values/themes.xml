@@ -1,0 +1,8 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.KekodChallenge2NewsApp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">#212529</item>
+        <item name="colorPrimaryVariant">#343a40</item>
+        <item name="colorOnPrimary">#495057</item>
+    </style>
+</resources>
