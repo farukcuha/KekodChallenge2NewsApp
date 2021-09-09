@@ -8,7 +8,8 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.core.os.bundleOf
 import androidx.core.view.ViewCompat
-import com.pandorina.kekodchallenge2newsapp.OnClickItem
+import com.airbnb.lottie.LottieAnimationView
+import com.pandorina.kekodchallenge2newsapp.util.OnClickItem
 import com.pandorina.kekodchallenge2newsapp.R
 import com.pandorina.kekodchallenge2newsapp.util.Constant
 import com.pandorina.kekodchallenge2newsapp.databinding.FragmentNewsBinding
@@ -17,6 +18,8 @@ import com.pandorina.kekodchallenge2newsapp.model.NewsFragmentModel
 import com.pandorina.kekodchallenge2newsapp.resource.BriefingResources.getBriefingList
 import com.pandorina.kekodchallenge2newsapp.resource.SportResources.getTechnologyList
 import com.pandorina.kekodchallenge2newsapp.resource.TechnologyResources.getSportList
+import java.text.SimpleDateFormat
+import java.util.*
 
 class NewsFragment : BaseFragment<FragmentNewsBinding>(FragmentNewsBinding::inflate, null),
     OnClickItem {
@@ -27,6 +30,18 @@ class NewsFragment : BaseFragment<FragmentNewsBinding>(FragmentNewsBinding::infl
     ): View {
         inflateNews()
         return super.onCreateView(inflater, container, savedInstanceState)
+    }
+
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+        getDate()
+        binding.fragment = this
+    }
+
+    private fun getDate(){
+        val dateFormat = SimpleDateFormat("dd MMMM yyyy", Locale("tr"))
+        val date = dateFormat.format(Date(System.currentTimeMillis()))
+        binding.date = date
     }
 
     private fun inflateNews() {
@@ -46,6 +61,10 @@ class NewsFragment : BaseFragment<FragmentNewsBinding>(FragmentNewsBinding::infl
         val bundle = bundleOf(Constant.ARG_NEWS to item.news)
         fragment.arguments = bundle
         parentFragmentManager.beginTransaction().add(item.id, fragment).commit()
+    }
+
+    fun onClickLottie(view: View){
+        (view as LottieAnimationView).playAnimation()
     }
 
     override fun onClickNewsItem(

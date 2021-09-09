@@ -38,6 +38,7 @@
                 android:layout_height="match_parent"
                 android:scaleType="centerCrop"
                 android:src="@drawable/item_news_list"
+                android:contentDescription="@string/small_image"
                 app:loadImage="@{news.mainImage}" />
         </androidx.cardview.widget.CardView>
 

@@ -2,7 +2,7 @@ package com.pandorina.kekodchallenge2newsapp.resource
 
 import com.pandorina.kekodchallenge2newsapp.fragment.BigNewsItemFragment
 import com.pandorina.kekodchallenge2newsapp.fragment.SmallNewsItemFragment
-import com.pandorina.kekodchallenge2newsapp.OnClickItem
+import com.pandorina.kekodchallenge2newsapp.util.OnClickItem
 import com.pandorina.kekodchallenge2newsapp.R
 import com.pandorina.kekodchallenge2newsapp.model.News
 import com.pandorina.kekodchallenge2newsapp.model.NewsFragmentModel

@@ -1,4 +1,4 @@
-package com.pandorina.kekodchallenge2newsapp
+package com.pandorina.kekodchallenge2newsapp.util
 
 import android.widget.ImageView
 import android.widget.TextView

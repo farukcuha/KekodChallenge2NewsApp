@@ -21,7 +21,7 @@ class IntroActivity : AppCompatActivity(R.layout.activity_intro), TypeWriterList
             it.setTypeWriterListener(this)
             it.setDelay(5)
             it.setWithMusic(true)
-            it.animateText("Hoşgeldiniz \n Resimlerin için internet bağlantısı gereklidir.")
+            it.animateText("Hoşgeldiniz \n Resimler için internet bağlantısı gereklidir.")
         }
 
     }

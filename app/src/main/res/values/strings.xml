@@ -2,4 +2,13 @@
     <string name="app_name">KekodChallenge2NewsApp</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="popular">En Çok Okunan</string>
+    <string name="technology">Teknoloji</string>
+    <string name="sport">Spor</string>
+    <string name="back">geri</string>
+    <string name="share">paylaş</string>
+    <string name="main_image">ana resim</string>
+    <string name="sub_image">alt resim 1</string>
+    <string name="sub_image_2">alt resim 2</string>
+    <string name="small_image">küçük resim</string>
 </resources>

@@ -35,7 +35,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/bird"
         tools:ignore="MissingConstraints"
-        tools:text="HOŞGELDİNİZ \n RESİMLERİN YÜKLENMESİ İÇİN İNTENET BAĞLANTINIZ OLDUĞUNDAN EMİN OLUNUZ." />
+        tools:text="HOŞGELDİNİZ \n RESİMLERİN YÜKLENMESİ İÇİN İNTENET BAĞLANTISI GEREKLİDİR." />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

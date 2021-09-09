@@ -2,7 +2,7 @@ package com.pandorina.kekodchallenge2newsapp.fragment
 
 import android.os.Bundle
 import android.view.View
-import com.pandorina.kekodchallenge2newsapp.OnClickItem
+import com.pandorina.kekodchallenge2newsapp.util.OnClickItem
 import com.pandorina.kekodchallenge2newsapp.util.Constant
 import com.pandorina.kekodchallenge2newsapp.databinding.FragmentSmallNewsItemBinding
 

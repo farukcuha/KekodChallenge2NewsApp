@@ -38,6 +38,7 @@
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
+                    android:contentDescription="@string/back"
                     tools:ignore="MissingConstraints" />
 
                 <ImageButton
@@ -50,6 +51,7 @@
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
+                    android:contentDescription="@string/share"
                     tools:ignore="MissingConstraints" />
 
             </androidx.constraintlayout.widget.ConstraintLayout>
@@ -107,12 +109,14 @@
                 android:layout_height="250dp"
                 android:layout_marginTop="8dp"
                 app:cardCornerRadius="20dp">
+
                 <ImageView
                     android:id="@+id/detail_image"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:scaleType="centerCrop"
                     android:src="@drawable/item_news_big_list"
+                    android:contentDescription="@string/main_image"
                     app:loadImage="@{news.mainImage}" />
             </androidx.cardview.widget.CardView>
 
@@ -142,13 +146,15 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
                 app:cardCornerRadius="20dp">
+
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="250dp"
                     android:scaleType="centerCrop"
                     android:src="@drawable/item_news_big_list"
                     app:loadImage="@{news.subImage1}"
-                    app:checkVisibility="@{news.subImage1}"/>
+                    android:contentDescription="@string/sub_image"
+                    app:checkVisibility="@{news.subImage1}" />
             </androidx.cardview.widget.CardView>
 
             <TextView
@@ -172,7 +178,8 @@
                     android:scaleType="centerCrop"
                     android:src="@drawable/item_news_big_list"
                     app:loadImage="@{news.subImage2}"
-                    app:checkVisibility="@{news.subImage2}"/>
+                    android:contentDescription="@string/sub_image_2"
+                    app:checkVisibility="@{news.subImage2}" />
             </androidx.cardview.widget.CardView>
 
             <TextView
