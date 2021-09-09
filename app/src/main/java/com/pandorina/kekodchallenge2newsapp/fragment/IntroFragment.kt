@@ -1,25 +1,24 @@
-package com.pandorina.kekodchallenge2newsapp.activity
+package com.pandorina.kekodchallenge2newsapp.fragment
 
-import android.content.Intent
 import android.os.Bundle
 import android.os.Handler
+import android.os.Looper
+import android.view.View
 import android.view.animation.Animation
 import android.view.animation.AnimationUtils
-import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.isVisible
+import androidx.fragment.app.commit
+import androidx.fragment.app.replace
 import com.pandorina.kekodchallenge2newsapp.R
-import com.pandorina.kekodchallenge2newsapp.databinding.ActivityIntroBinding
+import com.pandorina.kekodchallenge2newsapp.databinding.FragmentIntroBinding
 
-class IntroActivity : AppCompatActivity(R.layout.activity_intro) {
-    lateinit var binding: ActivityIntroBinding
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        binding = ActivityIntroBinding.inflate(layoutInflater)
-        setContentView(binding.root)
 
-        val birdMoveAnim = AnimationUtils.loadAnimation(applicationContext, R.anim.left_to_mid)
-        val birdFadeAnim = AnimationUtils.loadAnimation(applicationContext, R.anim.fade_out)
-        val logoAnim = AnimationUtils.loadAnimation(applicationContext, R.anim.fade_in)
+class IntroFragment : BaseFragment<FragmentIntroBinding>(FragmentIntroBinding::inflate, null) {
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+        val birdMoveAnim = AnimationUtils.loadAnimation(requireContext(), R.anim.left_to_mid)
+        val birdFadeAnim = AnimationUtils.loadAnimation(requireContext(), R.anim.fade_out)
+        val logoAnim = AnimationUtils.loadAnimation(requireContext(), R.anim.fade_in)
 
         binding.bird.startAnimation(birdMoveAnim)
 
@@ -29,11 +28,10 @@ class IntroActivity : AppCompatActivity(R.layout.activity_intro) {
             }
 
             override fun onAnimationEnd(animation: Animation?) {
-                Handler(mainLooper).postDelayed({
-                    Intent(applicationContext, MainActivity::class.java).let {
-                        it.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK or Intent.FLAG_ACTIVITY_NEW_TASK)
-                        startActivity(it)
-                    }
+                Handler(Looper.getMainLooper()).postDelayed({
+                    parentFragmentManager.beginTransaction()
+                        .replace(R.id.container, NewsFragment())
+                        .commit()
                 }, 2000)
             }
 
@@ -57,7 +55,5 @@ class IntroActivity : AppCompatActivity(R.layout.activity_intro) {
                 return
             }
         })
-
     }
-
 }
