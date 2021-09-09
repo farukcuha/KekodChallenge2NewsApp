@@ -7,8 +7,6 @@ import android.view.View
 import android.view.animation.Animation
 import android.view.animation.AnimationUtils
 import androidx.core.view.isVisible
-import androidx.fragment.app.commit
-import androidx.fragment.app.replace
 import com.pandorina.kekodchallenge2newsapp.R
 import com.pandorina.kekodchallenge2newsapp.databinding.FragmentIntroBinding
 

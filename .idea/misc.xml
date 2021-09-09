@@ -3,6 +3,8 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/ahmet/Desktop/Development/KekodChallenge2NewsApp/app/src/main/res/drawable-v21/app_widget_background.xml" value="0.24027777777777778" />
+        <entry key="..\:/Users/ahmet/Desktop/Development/KekodChallenge2NewsApp/app/src/main/res/drawable-v21/app_widget_inner_view_background.xml" value="0.24027777777777778" />
         <entry key="..\:/Users/ahmet/Desktop/Development/KekodChallenge2NewsApp/app/src/main/res/drawable/articl_color_circle_1.xml" value="0.24027777777777778" />
         <entry key="..\:/Users/ahmet/Desktop/Development/KekodChallenge2NewsApp/app/src/main/res/drawable/article_color_circle_1.xml" value="0.24027777777777778" />
         <entry key="..\:/Users/ahmet/Desktop/Development/KekodChallenge2NewsApp/app/src/main/res/drawable/article_color_circle_2.xml" value="0.24027777777777778" />
@@ -28,6 +30,7 @@
         <entry key="..\:/Users/ahmet/Desktop/Development/KekodChallenge2NewsApp/app/src/main/res/layout/fragment_technology.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/ahmet/Desktop/Development/KekodChallenge2NewsApp/app/src/main/res/layout/fragment_technology_news.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/ahmet/Desktop/Development/KekodChallenge2NewsApp/app/src/main/res/layout/item_article_bottom_sheet.xml" value="0.2" />
+        <entry key="..\:/Users/ahmet/Desktop/Development/KekodChallenge2NewsApp/app/src/main/res/layout/kekod_news_widget.xml" value="0.22592592592592592" />
         <entry key="..\:/Users/ahmet/Desktop/Development/KekodChallenge2NewsApp/app/src/main/res/menu/news_detail_menu.xml" value="0.22592592592592592" />
       </map>
     </option>

@@ -12,4 +12,18 @@
     <string name="small_image">küçük resim</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="app_widget_description">Son dakika haberlerine en hızlı siz ulaşın!</string>
+    <string name="breaking_news">Son Dakika</string>
+    <string name="series">DİZİ</string>
+    <string name="widget_news_title_1">Ceza mı Ödül mü Belli Değil: Netflix, La Casa de Papel Spoiler\'ı Verenleri \'Rehin Aldı\'</string>
+    <string name="one_hour_ago">1 saat önce</string>
+    <string name="movie">FİLM</string>
+    <string name="widget_news_title_2">Matrix 4: Resurrections Geliyor: İşte İlk Görüntüleri, Oyuncuları, Hikayesi ve Vizyon Tarihi Dahil Her Şey</string>
+    <string name="two_hours_ago">2 saat önce</string>
+    <string name="sectoral">SEKTÖREL</string>
+    <string name="widget_news_title_3">PayPal, \'Şimdi Al, Sonra Öde\' Hizmeti Veren Paidy\'yi 2,7 Milyar Dolara Satın Aldı</string>
+    <string name="four_hours_Ago">4 saat önce</string>
+    <string name="logo">logo</string>
 </resources>

@@ -21,6 +21,7 @@
         android:layout_height="200dp"
         android:layout_gravity="center"
         android:src="@drawable/app_logo"
-        android:visibility="gone" />
+        android:visibility="gone"
+        android:contentDescription="@string/logo" />
 
 </FrameLayout>
