@@ -4,7 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <data>
-
         <variable
             name="fragment"
             type="com.pandorina.kekodchallenge2newsapp.fragment.NewsFragment" />
@@ -15,19 +14,19 @@
     </data>
 
     <ScrollView
-        android:id="@+id/scroll"
+        android:id="@+id/scroll_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:context=".fragment.NewsFragment">
 
         <LinearLayout
-            android:id="@+id/linear"
+            android:id="@+id/linear_layout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
             <LinearLayout
-                android:id="@+id/briefing"
+                android:id="@+id/most_read"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
@@ -37,7 +36,7 @@
                     android:layout_height="wrap_content">
 
                     <TextView
-                        android:id="@+id/textView"
+                        android:id="@+id/tv_date"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginHorizontal="8dp"
@@ -60,7 +59,7 @@
                         android:textStyle="bold"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toBottomOf="@+id/textView"
+                        app:layout_constraintTop_toBottomOf="@+id/tv_date"
                         tools:ignore="MissingConstraints" />
 
                     <com.airbnb.lottie.LottieAnimationView
@@ -77,32 +76,32 @@
                 </androidx.constraintlayout.widget.ConstraintLayout>
 
                 <FrameLayout
-                    android:id="@+id/briefing_1"
+                    android:id="@+id/most_read_1"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content" />
 
                 <FrameLayout
-                    android:id="@+id/briefing_2"
+                    android:id="@+id/most_read_2"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content" />
 
                 <FrameLayout
-                    android:id="@+id/briefing_3"
+                    android:id="@+id/most_read_3"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content" />
 
                 <FrameLayout
-                    android:id="@+id/briefing_4"
+                    android:id="@+id/most_read_4"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content" />
 
                 <FrameLayout
-                    android:id="@+id/briefing_5"
+                    android:id="@+id/most_read_5"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content" />
 
                 <FrameLayout
-                    android:id="@+id/briefing_6"
+                    android:id="@+id/most_read_6"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content" />
             </LinearLayout>

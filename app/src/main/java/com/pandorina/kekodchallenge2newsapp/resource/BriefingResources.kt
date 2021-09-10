@@ -11,7 +11,7 @@ object BriefingResources {
     fun getBriefingList(onClickItem: OnClickItem): List<NewsFragmentModel> {
         return listOf(
             NewsFragmentModel(
-                R.id.briefing_1, BigNewsItemFragment(onClickItem), News(
+                R.id.most_read_1, BigNewsItemFragment(onClickItem), News(
                     "TEKNOLOJİ",
                     "4 saat önce",
                     "BMW, Geri Dönüştürülebilir Şehir Aracı BMW i Vision Circular'ı Tanıttı",
@@ -33,7 +33,7 @@ object BriefingResources {
                 )
             ),
             NewsFragmentModel(
-                R.id.briefing_2, SmallNewsItemFragment(onClickItem), News(
+                R.id.most_read_2, SmallNewsItemFragment(onClickItem), News(
                     "OYUN",
                     "7 saat önce",
                     "Oyun Dünyasında Geçtiğimiz Haftanın Öne Çıkan Haberleri",
@@ -49,7 +49,7 @@ object BriefingResources {
                 )
             ),
             NewsFragmentModel(
-                R.id.briefing_3, SmallNewsItemFragment(onClickItem), News(
+                R.id.most_read_3, SmallNewsItemFragment(onClickItem), News(
                     "KRİPTO PARA",
                     "8 saat önce",
                     "Dünya Çapında ‘30 Dolarlık Bitcoin Alın’ Çağrısı Başlatıldı: İşte Sonuçları",
@@ -73,7 +73,7 @@ object BriefingResources {
                 )
             ),
             NewsFragmentModel(
-                R.id.briefing_4, SmallNewsItemFragment(onClickItem), News(
+                R.id.most_read_4, SmallNewsItemFragment(onClickItem), News(
                     "KRİPTO PARA",
                     "10 saat önce",
                     "Nasıl Ya: Yeni Açılan Bir NFT Platformunun Test Amaçlı Oluşturduğu NFT, 270 Bin Dolara Satıldı",
@@ -91,7 +91,7 @@ object BriefingResources {
                 )
             ),
             NewsFragmentModel(
-                R.id.briefing_5, BigNewsItemFragment(onClickItem), News(
+                R.id.most_read_5, BigNewsItemFragment(onClickItem), News(
                     "BİLİM",
                     "14 saat önce",
                     "Yaşayan Son Tazmanya Kaplanının Fotoğrafları Renklendirildi: Karşınızda Türünün Son Üyesi Olan Benjamin",
@@ -111,7 +111,7 @@ object BriefingResources {
                 )
             ),
             NewsFragmentModel(
-                R.id.briefing_6, SmallNewsItemFragment(onClickItem), News(
+                R.id.most_read_6, SmallNewsItemFragment(onClickItem), News(
                     "OTOMOBİL",
                     "15 saat önce",
                     "Görkemli Bir ‘Hidrojen’ Planı Açıklayan Hyundai, Dünyanın İlk Hidrojen Hibrit Spor Otomobilini Tanıttı",

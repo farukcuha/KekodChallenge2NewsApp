@@ -28,7 +28,7 @@ class IntroFragment : BaseFragment<FragmentIntroBinding>(FragmentIntroBinding::i
             override fun onAnimationEnd(animation: Animation?) {
                 Handler(Looper.getMainLooper()).postDelayed({
                     parentFragmentManager.beginTransaction()
-                        .replace(R.id.container, NewsFragment())
+                        .replace(R.id.fragment_container, NewsFragment())
                         .commit()
                 }, 2000)
             }

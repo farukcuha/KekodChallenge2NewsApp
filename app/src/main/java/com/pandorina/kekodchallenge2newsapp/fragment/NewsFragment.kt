@@ -89,7 +89,7 @@ class NewsFragment : BaseFragment<FragmentNewsBinding>(FragmentNewsBinding::infl
             .addSharedElement(title, Constant.TO_SHARED_TITLE)
             .addSharedElement(time, Constant.TO_SHARED_TIME)
             .setReorderingAllowed(true)
-            .replace(R.id.container, fragment)
+            .replace(R.id.fragment_container, fragment)
             .addToBackStack(null)
             .commit()
     }

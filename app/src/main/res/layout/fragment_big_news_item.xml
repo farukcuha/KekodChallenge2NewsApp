@@ -109,7 +109,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/big_summary"
             tools:ignore="MissingConstraints"
-            tools:text="3 min - Ahmet Faruk Çuha" />
+            tools:text="7 saat önce" />
 
 
         <View

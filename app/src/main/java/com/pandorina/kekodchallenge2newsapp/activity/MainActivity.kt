@@ -11,7 +11,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        supportFragmentManager.beginTransaction().add(R.id.container, IntroFragment()).commit()
+        supportFragmentManager.beginTransaction().add(R.id.fragment_container, IntroFragment()).commit()
 
         val widgetNotifyDialog = AlertDialog.Builder(this).apply {
             setTitle("Bilgilendirme")
@@ -26,6 +26,6 @@ class MainActivity : AppCompatActivity() {
             if (!isFinishing) {
                 widgetNotifyDialog.show()
             }
-        }, 20000)
+        }, 25000)
     }
 }
