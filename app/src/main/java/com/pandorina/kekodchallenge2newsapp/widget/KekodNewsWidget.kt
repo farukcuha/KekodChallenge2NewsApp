@@ -1,9 +1,10 @@
-package com.pandorina.kekodchallenge2newsapp
+package com.pandorina.kekodchallenge2newsapp.widget
 
 import android.appwidget.AppWidgetManager
 import android.appwidget.AppWidgetProvider
 import android.content.Context
 import android.widget.RemoteViews
+import com.pandorina.kekodchallenge2newsapp.R
 
 /**
  * Implementation of App Widget functionality.
