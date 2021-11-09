@@ -1,4 +1,4 @@
-# KekodChallenge2NewsApp
+# NewsAppOffline
 ### I developed a news app. In this project my main library was **fragment**. The app design belongs to Webtekno mobile ios app. It just a trainig app to improve fragment using skills.
 <img src="app/src/main/res/drawable/app_logo.png" width="150px" alt="logo">
 
