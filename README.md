@@ -10,10 +10,6 @@
 
 <img src="screenshots/1.png" width="250px" alt="ss1">  <img src="screenshots/2.png" width="250px"  alt="ss2">  <img src="screenshots/3.png" width="250px"  alt="ss3">
 
-<pre><code>Copyright 2021 Ahmet Faruk Çuha</code></pre>
-
----
-
-<div align = "center">
-    <a href="http://farukcuha.github.io/?i=1"><img src="https://i.ibb.co/nwWY8F7/Varl-k-5-4x-removebg.jpg" alt="icon" width="75"></a>
-</div>
+<pre><code>This app was developed for dear <a href="https://github.com/KeKod">Kekod</a>'s twitch challenge and it was awarded first place.
+Copyright 2021 Ahmet Faruk Çuha
+</code></pre>
